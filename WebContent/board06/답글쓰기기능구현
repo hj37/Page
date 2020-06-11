@@ -1,0 +1,17 @@
+
+답글 쓰기 기능 구현
+1. 글상세창(viewArticle.jsp)에서 답글쓰기를 클릭하면
+요청명을 /board/replyForm.do로 하여
+부모 글번호(parentNO)를 BoardController서블릿으로 전송함
+
+2. 답글 쓰기창(replyFrom.jsp)에서 답변 글을 작성한 후 
+요청명을 /board/addReply.do로 하여 
+BoardController서블릿으로 요청합니다.
+
+3. 컨트롤러에서는 전송된 답글의 정보를 게시판 테이블에 
+부모글 번호와 함께 추가합니다.
+
+
+
+
+ 

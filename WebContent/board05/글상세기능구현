@@ -1,0 +1,17 @@
+
+글 상세 기능 구현
+
+- 글 목록에서 글 제목을 클릭 했을때 글의 상세 내용을 보여주는 기능을 구현해 보겠습니다.
+
+- 글 상세 기능을 구현하는 과정
+
+	1. 글 목록창(listArticle.jsp)에서 글제목을 클릭해
+	   컨트롤러(BoardController.java)에  
+	  /board/viewArticle.do?articleNO=글번호로 요청 합니다.
+	 
+	2.컨트롤러는 전송된 글 번호로 글정보를 조회하여  글 상세창(viewArticle.jsp)으로
+	  포워딩 합니다.
+	 
+	3. 글 상세창(viewArticle.jsp)에  글 정보와 이미지 파일이 표시됩니다. 
+	
+	
